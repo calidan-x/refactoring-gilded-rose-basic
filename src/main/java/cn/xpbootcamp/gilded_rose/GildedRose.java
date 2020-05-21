@@ -1,9 +1,9 @@
 package cn.xpbootcamp.gilded_rose;
 
 class GildedRose {
-    Item[] items;
+    Product[] items;
 
-    public GildedRose(Item[] items) {
+    public GildedRose(Product[] items) {
         this.items = items;
     }
 
