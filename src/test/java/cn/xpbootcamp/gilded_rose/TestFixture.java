@@ -25,11 +25,10 @@ class TestFixture {
     }
 
     public static TestFixture createSulfuras(int sellIn, int quality, int updatedSellIn, int updatedQuality) {
-        return new TestFixture("Sulfuras, Hand of Ragnaros", sellIn, quality, updatedSellIn, updatedQuality);
+        return new TestFixture("Sulfuras", sellIn, quality, updatedSellIn, updatedQuality);
     }
 
     public static TestFixture createBackstagePass(int sellIn, int quality, int updatedSellIn, int updatedQuality) {
-        return new TestFixture("Backstage passes to a TAFKAL80ETC concert", sellIn, quality, updatedSellIn,
-                updatedQuality);
+        return new TestFixture("Backstage passes", sellIn, quality, updatedSellIn, updatedQuality);
     }
 }
